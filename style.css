@@ -408,17 +408,7 @@ li a:hover {
   background: url('/images/promo_iphone_tradein.jpg');
   background-size: cover;
   height: 500px;
-  width: 720px;
 }
-
-.apple-trade-logo-main {
-  background-image: url('/images/trade-logo.png');
-  background-size: 100px;
-  background-repeat: no-repeat;
-  height: 50px;
-  width: 100%;
-}
-
 .Estimate-btn {
   background-color: #007bff;
   color: #ffffff;
@@ -428,11 +418,12 @@ li a:hover {
 .sliders {
   height: 600px;
   width: 100%;
-  margin-top: -500px;
+  margin-top: 30px;
+  margin-bottom: -300px;
 }
 
 .carousel-item img {
-  height: 600px;
+  height: auto;
   width: 100%;
   object-fit: cover;
 }
